@@ -464,12 +464,14 @@
             }
           });
         }
-    
-        // Add event listener to the scroll event
-        $(window).on('scroll', setActiveNavByScroll);
-    
-        // Call setActiveNavByScroll on page load
-        $(window).on('load', setActiveNavByScroll);
+        if (window.innerWidth > 991.5) {
+            // Add event listener to the scroll event
+            $(window).on('scroll', setActiveNavByScroll);
+            
+            // Call setActiveNavByScroll on page load
+            $(window).on('load', setActiveNavByScroll);
+        }
+        
       </script>
 </body>
 </html>

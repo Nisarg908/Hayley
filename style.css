@@ -550,12 +550,12 @@ h3, h4 {
         .navbar-nav li a:link,
         .navbar-nav li a:visited {
             color: white;
+            border-bottom: 2px solid #76453B; 
         }
         
         .navbar-nav li a:hover,
         .navbar-nav li a:active {
-            color: #76453B; 
-            border-bottom: 2px solid #76453B;  
+            color: #76453B;  
         }
 
         .hero-text-box {
