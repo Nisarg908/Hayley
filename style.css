@@ -1,0 +1,617 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-size: 20px;
+    padding-top: 94px;
+    /* background-color: rgba(66,39,118,1) */
+    /* background-color: rgba(86,59,118,0.1); */
+    /* Adjust this value to make sure the content doesn't get hidden behind the navbars */
+} 
+/* .background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: opacity 2s ease;
+    animation: changeBackground 30s infinite;
+} */
+.navbar-primary {
+    font-family: 'JejuMyeongjo';
+    font-size: 90%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #76453B;
+    /* background-color: #E5B80B; */
+    /* background:linear-gradient(rgba(222, 97, 160, 0.9),rgba(101, 43, 72, 0.9)); */
+    /* Change this to your desired background color */
+    color: #fff;
+    /* Change this to your desired text color */
+    z-index: 10;
+}
+
+.navbar-primary p {
+    font-size: 100%;
+    margin-bottom: 0;
+}
+
+.navbar-secondary {
+    position: fixed;
+    top: 26px;
+    /* Height of the primary navbar + some spacing */
+    width: 100%;
+    /* background-color: #98a0a8; */
+    /* background: rgb(20, 0, 122); */
+    background: #43766C;
+    /* Change this to your desired background color */
+    color: black;
+    /* Change this to your desired text color */
+    z-index: 10;
+}
+
+.navbar-secondary img {
+    width: 40px;
+}
+.no_padding {
+    padding: 0 !important;
+}
+
+.nav-item {
+    margin-right: 40px;
+}
+
+.navbar-nav li a:link,
+.navbar-nav li a:visited {
+    /* color: #d8c7c4; */
+    color: white;
+    font-family: 'JejuMyeongjo';
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 70%;
+    border: 2px solid transparent;
+    padding: 8px 0;
+    transition: color 0.40s;
+    transition: border-bottom 0.40s;
+}
+.navbar-nav li a:hover {
+    /* color: #E5B80B;
+    border-bottom: 2px solid #E5B80B; */
+    color: #B19470;
+    border-bottom: 2px solid #B19470;
+}
+.custom-active {
+    color: #B19470 !important;
+    /* font-weight: bolder; */
+    border-bottom: 2px solid #B19470 !important;
+}
+/* .navbar-nav li a.active  {
+    color: #422776;
+} */
+/* .navbar-nav li a:hover,
+.navbar-nav li a.active {
+    border-bottom: 2px solid #422776;
+} */
+
+/* .navbar-toggler-icon {
+    filter: invert(100%);
+    color: #422776 !important;
+} */
+.custon-navbar-toggler-icon img {
+    width: 50px;
+}
+.custon-navbar-toggler {
+    display: none;
+    border: none !important;
+    outline: none !important;
+    background-color: transparent !important;
+}
+
+header {
+    background-attachment: fixed;
+    /* background-color: #1f1f1d; */
+    background-color: #F8FAE5;
+    height: 84.5vh;
+    font-family: sans-serif !important;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.hero-text-box {
+    padding-left: 6%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #76453B;
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    left: 0;
+    /* transform: translate(0, -50%); */
+    /* overflow: hidden; */
+    /* background-color: rgba(225, 225, 225, 0.8); */
+    /* background: linear-gradient(#494a51, #0e0d0d); */
+    /* background: linear-gradient(#505157, #000000); */
+    /* background:linear-gradient(rgba(222, 97, 160, 0.9),rgba(101, 43, 72, 0.9)); */
+    /* background: linear-gradient(#9198e5, #000000); */
+    /* clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%); */
+}
+
+.circle_photos img {
+    position: absolute;
+    /* width: 55%; */
+    height: 180px;
+    width: 180px;
+    /* height: 360px;
+    width: 360px; */
+    border-radius: 50%;
+    /* background: linear-gradient(rgba(222, 97, 160, 0.9), rgba(206, 5, 102, 0.9)); */
+    background: linear-gradient(#43766C,#409a88);
+    border: 5px solid transparent;
+    /* border: 5px solid linear-gradient(rgba(222, 97, 160, 0.9),rgba(101, 43, 72, 0.9)); */
+    /* margin-right: 10px; */
+    vertical-align: middle;
+}
+.img1 {
+    top: 40%;
+    left: 60%;
+}
+.img2 {
+    top: 30%;
+    left: 78%;
+}
+.img3 {
+    top: 62%;
+    left: 73%;
+}
+/* .img4 {
+    top: 30%;
+    left: 60%;
+} */
+
+h1 {
+    font-size: 70px;
+}
+
+.style_font1 {
+    font-family: 'Italiana';
+}
+.style_font2 {
+    font-size: 50px;
+    font-family: 'Marmelad';
+    color: #43766C;
+}
+/* .trapezium {
+    width: 200px;
+    height: 300px;
+    
+    /* Optionally, you can add more styles to customize the appearance of the trapezium 
+} */
+
+
+
+/* cite img {
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+} */
+/* .blue_color {
+    color: #4227aa;
+} */
+
+.btn:link,
+.btn:visited, 
+input[type=submit] {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 80%;
+    font-weight: 300;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #B19470;
+    color: #fff;
+    font-weight: 500;
+    border: 1px solid #98a0a8;
+    margin-right: 25px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited, 
+input[type=submit] {
+    background-color: rgb(255, 255, 255);
+    color: #43766C;
+    font-weight: 500;
+    /* //border: 1px solid #98a0a8; */
+    border: 2px solid #B19470;
+}
+
+.btn:hover,
+.btn:active, 
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #43766C;
+    color: #fff;
+}
+
+section {
+    /* overflow: hidden; */
+    padding-top: 2%;
+}
+/* .section_services {
+    scroll-margin-top: 95px !important;
+    overflow: hidden;
+} */
+
+h2 {
+    /* color: #5151e0; */
+    color: #76453B;
+    font-family: 'Italiana';
+    /* font-family: sans-serif !important; */
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center !important;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #43766C;
+    content: " ";
+    width: 200px;
+    margin: 15px auto;
+}
+
+h3, h4 {
+    font-family: 'Marmelad';
+}
+
+.section_services {
+    scroll-margin-top: 94px !important;
+    padding-top: 3%;
+    background-color: #f4f4f4;
+    
+    /* overflow: hidden; */
+}
+
+.section_services .row {
+    width: 101%;
+}
+
+.plan-box {
+    overflow: hidden;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-price {
+    font-size: 300%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 200;
+    margin-bottom: 10px;
+    color: #e67e22;
+}
+
+.plan-price-meal {
+    margin-bottom: 0;
+    font-size: 80%;
+}
+
+.plan-price span {
+    font-size: 40%;
+    font-weight: 300;
+}
+
+/*list-style to chenge the bullet points*/
+.plan-box ul {
+    padding: 0;
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
+
+.plan-box ul li ion-icon {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #d75d45;
+    font-size: 120%;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+/* .plan-box div:last-child {
+    border: 0;
+    text-align: center;
+} */
+
+.plan-box div:first-child {
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* .icon-container ion-icon {
+    vertical-align: middle;
+} */
+/* .services_container {
+    overflow: hidden;
+} */
+/* .services_container img{
+    padding: 1% 5% 5% 5%;
+}
+/* .services_container .row {s
+    padding-left: 6%;
+} */
+.section_about {
+    scroll-margin-top: 94px !important;
+    margin: 0px 3%;
+}
+    .section-form {
+        background-color: #ffffff;
+        scroll-margin-top: 82px !important;
+        font-size: 20px;
+        /* font-size: large; */
+        padding: 3%;
+        /* overflow: hidden; */
+    }
+    
+    .section-form .row {
+        padding: 0.2% 2.5% 0.2% 2.5% !important;
+    }
+    
+    .contact-form {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    input[type=text],
+    input[type=email],
+    input[type=tel],
+    select,
+    textarea {
+        width: 100%;
+        padding: 3px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+    }
+    textarea {
+        height: 160px;
+    }
+    
+    input[type=checkbox] {
+        margin: 7px 2px 7px 0;
+    }
+    
+    footer {
+        overflow: hidden;
+        /* background-color: #333; */
+        /* background-color: #43766C !important; */
+        background: linear-gradient(#76453B,#B19470) !important;
+        font-size: 80%;
+        padding: 50px;
+    }
+
+    #footer_logo img{
+        width: 120px;
+    }
+
+    .footer-nav {
+        padding-left: 0;  
+        list-style: none;
+        float: left;
+    }
+    
+    .social-links {
+        color: white;
+        list-style: none;
+        float: right;
+    }
+    
+    .footer-nav li,
+    .social-links li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    .social-links li a:link,
+    .social-links li a:visited,
+    .footer-nav li a:link,
+    .footer-nav li a:visited {
+        /* text-decoration: none; */
+        border: 0;
+        color: white;
+    }
+    
+    .footer-nav li a:hover,
+    .footer-nav li a:active {
+        color: #ddd;
+    }
+    
+    footer p {
+        color: white;
+        text-align: center;
+        margin-top: 70px;
+        font-size: 90%;
+    }
+    
+    .fb:hover {
+        color: #3b5998;
+    }
+    /* .twitter:hover {
+        color: #00aced;
+    }
+    .google:hover {
+        color: #dd4b39;
+    } */
+    /* .insta:hover {
+        color: linear-gradient(purple, magenta, red, orange, yellow);
+    } */
+    .insta:hover {
+        border-radius: 50%;
+        background: linear-gradient(purple, magenta, red, orange, yellow);
+    }
+    /* .hero-text-box {
+        top: 95px;
+        padding-top: 10%;
+        height: 84.5vh;
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+        animation: animate 15s ease-in-out infinite;
+    }
+    
+    @keyframes animate {
+        0%,100% {
+            background-image: linear-gradient(rgba(248, 250, 229,0.5), rgba(248, 250, 229,0.8)), url(./images/hair_cut_1.jpg);
+            background-position: center center;
+        }
+        33% {
+            background-image: linear-gradient(rgba(248, 250, 229,0.5), rgba(248, 250, 229,0.8)), url(./images/facial.jpg);
+            background-position: center center;
+        }
+        66% {
+            background-image: linear-gradient(rgba(248, 250, 229,0.5), rgba(248, 250, 229,0.8)), url(./images/waxing.jpg);
+            background-position: center center;
+        }
+    } */
+
+    @media only screen and (max-width: 991.5px) {
+        .custon-navbar-toggler {
+            display: inline-block;
+        }
+        .onclick-close {
+            display: none;
+        }
+        .navbar-collapse {
+            border-radius: 10px;
+            border: 2px solid #43766C;
+            position: absolute;
+            top: 67px;
+            left: 80%;
+            width: 20%;
+            align-items: center;
+            background:linear-gradient(rgba(177, 148, 112, 0.9),rgba(67, 118, 108, 0.9));
+        }
+        
+        /* .navbar-secondary,
+        #navbarPrimary {
+            background-color: rgba(225, 225, 225, 0.9);
+        }  */
+          /* 2. Set width of .container to 100% */
+          
+          .navbar-secondary .container {
+            padding-top: 0;
+            padding-bottom: 0;
+            margin: 0;
+            max-width: 100%;
+            width: 100%;
+            /* border: 2px solid #422776; */
+          }
+        /* .navbar-nav {
+            width: 80%;
+        } */
+        .navbar-nav li {
+            width: 100%;
+            align-items: center;
+        }
+        .navbar-nav li a{
+            text-align: center;
+        }
+        .navbar-nav li a:link,
+        .navbar-nav li a:visited {
+            color: white;
+        }
+        
+        .navbar-nav li a:hover,
+        .navbar-nav li a:active {
+            color: #76453B; 
+            border-bottom: 2px solid #76453B;  
+        }
+
+        .hero-text-box {
+            width: 100%;
+        }
+        .custom-active {
+            color: #76453B !important;
+            /* font-weight: bolder; */
+            border-bottom: 2px solid #76453B !important;
+        }
+
+        .img1 {
+            display: none;
+        }
+        .img2 {
+            display: none;
+        }
+        .img3 {
+            display: none;
+        }
+        .hero-text-box {
+            top: 95px;
+            padding-top: 14%;
+            height: 84.5vh;
+            overflow: hidden;
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* animation: animate 18s linear infinite; */
+            animation: animate 15s ease-in-out infinite;
+        }
+        
+        @keyframes animate {
+            0%,100% {
+                background-image: linear-gradient(rgba(248, 250, 229,0.5), rgba(248, 250, 229,0.8)), url(./images/hair_cut_1-min.jpg);
+                background-position: center center;
+            }
+            33% {
+                background-image: linear-gradient(rgba(248, 250, 229,0.5), rgba(248, 250, 229,0.8)), url(./images/facial-min.jpg);
+                background-position: center center;
+            }
+            66% {
+                background-image: linear-gradient(rgba(248, 250, 229,0.5), rgba(248, 250, 229,0.8)), url(./images/waxing-min.jpg);
+                background-position: center center;
+            }
+        }
+        /* .active {
+            border-bottom: none;
+        } */
+    }
+
+    @media only screen and (max-width: 405px) {
+        .navbar-collapse {
+            left: 70%;
+            width: 30%;
+        }
+        .section-form {
+            scroll-margin-top: 90px !important;
+        }
+    }

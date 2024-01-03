@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hayley's Salon Service</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/Untitled design.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Italiana:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=JejuMyeongjo:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Marmelad:wght@400&display=swap"
+    />
+</head>
+<body id="home">
+    <div class="background-container"></div>
+    <header>
+      <!-- Primary Navbar -->
+      <nav class="navbar-primary">
+        <!-- <div class="container"> -->
+        <p><svg width="25px" height="25px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="call"><path fill="white" d="M19.41,13c-.22,0-.45-.07-.67-.12a9.86,9.86,0,0,1-1.31-.39,2,2,0,0,0-2.48,1l-.22.46a13.17,13.17,0,0,1-2.67-2,13.17,13.17,0,0,1-2-2.67l.46-.21a2,2,0,0,0,1-2.48,10.47,10.47,0,0,1-.39-1.32c-.05-.22-.09-.45-.12-.67a3,3,0,0,0-3-2.49H5a3,3,0,0,0-2.24,1,3,3,0,0,0-.73,2.4,19.07,19.07,0,0,0,5.41,11,19.07,19.07,0,0,0,11,5.41,2.56,2.56,0,0,0,.39,0,3,3,0,0,0,2-.76,3,3,0,0,0,1-2.24v-3A3,3,0,0,0,19.41,13Zm.49,6a1,1,0,0,1-.33.74,1,1,0,0,1-.82.25,17.16,17.16,0,0,1-9.87-4.84A17.16,17.16,0,0,1,4,5.25a1,1,0,0,1,.25-.82A1,1,0,0,1,5,4.1h3a1,1,0,0,1,1,.78c0,.27.09.55.15.82a11,11,0,0,0,.46,1.54l-1.4.66a1,1,0,0,0-.52.56,1,1,0,0,0,0,.76,14.49,14.49,0,0,0,7,7,1,1,0,0,0,.76,0,1,1,0,0,0,.56-.52l.63-1.4a12.41,12.41,0,0,0,1.58.46c.26.06.54.11.81.15a1,1,0,0,1,.78,1ZM14,2c-.23,0-.47,0-.7,0a1,1,0,0,0,.17,2L14,4a6,6,0,0,1,6,6c0,.18,0,.35,0,.53a1,1,0,0,0,.91,1.08h.08a1,1,0,0,0,1-.91c0-.23,0-.47,0-.7A8,8,0,0,0,14,2Zm2,8a1,1,0,0,0,2,0,4,4,0,0,0-4-4,1,1,0,0,0,0,2A2,2,0,0,1,16,10Z"></path></svg>
+          &nbsp;6479232811
+          |&nbsp; <svg width="23px" height="23px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 96" id="email"><g data-name="Layer 2"><path fill="white" d="M0 11.283V8a8 8 0 0 1 8-8h112a8 8 0 0 1 8 8v3.283l-64 40zm66.12 48.11a4.004 4.004 0 0 1-4.24 0L0 20.717V88a8 8 0 0 0 8 8h112a8 8 0 0 0 8-8V20.717z"></path></g></svg> 
+          &nbsp;xxxxx@gmail.com</p>
+        <!-- </div> -->
+      </nav>
+  
+      <!-- Secondary Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-secondary no_padding">
+        <div class="container">
+          <!-- Add your secondary navbar content here -->
+          <a class="navbar-brand" href="#"><img src="./images/white_icon-removebg-preview_1.png" alt=""></a>
+          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPrimary" aria-controls="navbarPrimary" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="purple">
+                          <path d="M2 17h20v2H2zM2 11h20v2H2zM2 5h20v2H2z"/>
+                      </svg>
+                  </span>
+              </button> -->
+          <button class="custon-navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPrimary"
+            aria-controls="navbarPrimary" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="custon-navbar-toggler-icon">
+                <svg width="50px" height="50px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="menu"><g data-name="Layer 2"><g data-name="menu"><rect fill="#d8c7c4" width="18" height="2" x="3" y="11" rx=".95" ry=".95"></rect><rect fill="#d8c7c4" width="18" height="2" x="3" y="16" rx=".95" ry=".95"></rect><rect fill="#d8c7c4" width="18" height="2" x="3" y="6" rx=".95" ry=".95"></rect></g></g></svg>
+              <!-- <svg width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  
+                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+  
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+  
+                <g id="SVGRepo_iconCarrier">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M3.46447 20.5355C4.92893 22 7.28595 22 12 22C16.714 22 19.0711 22 20.5355 20.5355C22 19.0711 22 16.714 22 12C22 7.28595 22 4.92893 20.5355 3.46447C19.0711 2 16.714 2 12 2C7.28595 2 4.92893 2 3.46447 3.46447C2 4.92893 2 7.28595 2 12C2 16.714 2 19.0711 3.46447 20.5355ZM18.75 16C18.75 16.4142 18.4142 16.75 18 16.75H6C5.58579 16.75 5.25 16.4142 5.25 16C5.25 15.5858 5.58579 15.25 6 15.25H18C18.4142 15.25 18.75 15.5858 18.75 16ZM18 12.75C18.4142 12.75 18.75 12.4142 18.75 12C18.75 11.5858 18.4142 11.25 18 11.25H6C5.58579 11.25 5.25 11.5858 5.25 12C5.25 12.4142 5.58579 12.75 6 12.75H18ZM18.75 8C18.75 8.41421 18.4142 8.75 18 8.75H6C5.58579 8.75 5.25 8.41421 5.25 8C5.25 7.58579 5.58579 7.25 6 7.25H18C18.4142 7.25 18.75 7.58579 18.75 8Z"
+                    fill="#E5B80B" />
+                </g>
+  
+              </svg> -->
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarPrimary">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scroll" href="#services">Services</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#services">Catalogs</a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link scroll" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scroll" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+      <!-- Main Content -->
+      <div class="row">
+        <div class="container hero-text-box">
+          <h1><span class="style_font1">HAYLEY'S <br>Salon Service</span><br><span class="style_font2">Exclusively for women</span></h1>
+          <!-- <a class="btn btn-full" href="./products.html">Products</a>
+          <a class="btn btn-ghost" href="./catalog.pdf">Catalogs</a> -->
+        </div>
+        <div class="container circle_photos">
+          <img class="img1" src="./images/templet_1.png" alt="Hair_cut Freepik Image">
+          <img class="img2" src="./images/templet_2.png" alt="Facial Freepik Image">
+          <img class="img3" src="./images/templet_3.png" alt="Waxing Freepik Image">
+          <!-- <img class="img4" src="./images/hair_cut_photo_4.jpg" alt=""> -->
+          <!-- <a class="btn btn-full" href="./products.html">Products</a>
+          <a class="btn btn-ghost" href="./catalog.pdf">Catalogs</a> -->
+        </div>
+      </div>
+    </header>
+    <section class="section_services" id="services">
+        <div>
+            <h2>Our Services</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg">
+                <div class="plan-box">
+                    <div>
+                        <h3 class="icon-container"><svg  width="25px" height="25px" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 500.34"><path d="M127.97 264.15c-36.3-13.14-56.52-33.77-61.8-61.34l229.16 61.62c8.95 1.14 16.69 4.08 22.77 9.53 5.68 5.1 6.1 8.62 9.92 14.17 3.2 4.66 7.62 8.25 14.39 9.77l7.3.34c6.56.32 13.36 1.73 17.99-4.24 3.09-4 3.06-9.97.83-17.33-.33-6.97.71-13.66 3.17-20.07 2.39-6.19 6.12-12.12 11.25-17.76 17.76-16.02 40.25-22.73 70.21-14.69 34.95 8.35 51.72 28.16 58.24 54.42 2.37 17.56-2.41 31.15-12.84 41.61-15.91 15.93-36.48 21.23-58.4 19.34-13.88-1.19-28.21-4.97-43.87-9.51l-55.79-6.81 1.36-2.44-213.89-56.61zm10.16 118.39c2.25 2.25 2.21 5.94-.09 8.23-2.29 2.3-5.98 2.33-8.22.09l-71.04-71.04-9.95 9.95 72.29 72.29c2.47 4.05-2.22 7.75-5.25 7-46.1-18.26-99.36-56.53-112.94-99.91-5.24-16.73-3.85-15.42 7.41-26.69l43.75-43.75c3.87 6.24 8.53 12.11 14.02 17.6 11.46 11.45 26.39 20.95 44.92 28.43l61.45 61.45c2.26 2.26 2.22 5.95-.08 8.26-2.31 2.3-6.01 2.34-8.26.08L95.1 283.5l-9.82 9.82 71.03 71.04c2.26 2.25 2.22 5.95-.08 8.26-2.31 2.3-6 2.34-8.26.08l-71.04-71.03-9.84 9.84 71.04 71.03zm-33.11-194.76 94.42-94.42 18.18 67.62-5.15 5.15 8.94 8.94 6.14 22.83-23.42-23.42-9.83 9.82 37.59 37.59-22.83-6.14-23.11-23.1-9.82 9.82 6.05 6.06-77.16-20.75zM250.37 42.43l32.09-32.09c11.27-11.26 9.96-12.65 26.69-7.41 43.38 13.58 81.65 66.84 99.9 112.94.76 3.03-2.94 7.72-6.99 5.25l-72.29-72.29-8.3 8.3 71.04 71.03c2.25 2.25 2.21 5.94-.08 8.23-2.3 2.29-5.99 2.33-8.23.08l-71.04-71.03-9.86 9.86 71.04 71.03c2.24 2.25 2.21 5.94-.09 8.23-2.29 2.29-5.98 2.33-8.23.08l-71.03-71.03-4.56 4.56c-6.37-12.57-13.86-23.13-22.46-31.72-5.48-5.49-11.35-10.16-17.6-14.02zm48.13 64.37 57.68 57.68c2.26 2.26 2.22 5.96-.08 8.26-2.3 2.31-6 2.35-8.26.09l-43.03-43.03-5.22-19.75c-.27-1.03-.61-2.03-1-2.99l-.09-.26zm13.4 49.78 26.1 26.09c2.24 2.25 2.21 5.94-.09 8.23-2.29 2.29-5.98 2.33-8.23.08l-11.8-11.8-5.98-22.6zm-99.81 155.26c.79 2.08.33 4.55-1.37 6.25-2.29 2.3-5.98 2.33-8.23.09l-12.07-12.07 21.67 5.73zm-48.47-12.83 29.02 29.02c2.25 2.25 2.21 5.94-.09 8.23-2.29 2.29-5.98 2.33-8.23.08l-43.31-43.31 22.61 5.98zm112.2-182.71c-13.15-36.3-33.78-56.51-61.35-61.8l50.93 189.39 47.7 13.31-37.28-140.9zm30.63 206.8c1.38 2.16 2.44 4.67 3.11 7.64l.35 7.31c.31 6.55 1.72 13.35-4.25 17.98-4 3.1-9.97 3.06-17.33.83-6.96-.32-13.66.71-20.06 3.18-6.2 2.39-12.12 6.11-17.76 11.25-16.02 17.76-22.73 40.24-14.7 70.21 8.36 34.95 28.17 51.72 54.43 58.24 17.56 2.37 31.15-2.41 41.6-12.84 15.94-15.91 21.23-36.48 19.35-58.4-1.2-13.89-4.98-28.22-9.52-43.88l-6.6-54.16-2.13-.55-.52.29-.12-.45-25.85-6.65zm-15 57.19c-14.43-3.02-24.95 5.67-30.9 18.08-4.78 9.95-5.6 21.81-2.69 35.46 2.45 11.51 10.21 26.26 20.87 35.12 20.63 17.15 41.03 3.91 47.46-19.03 2.86-10.2 2.61-20.84-1.01-31.95-2.44-7.53-6.22-15.58-11.39-22.35-5.73-7.48-13.14-13.4-22.34-15.33zm1.02-100.46c4.42-4.42 11.58-4.42 16 0s4.42 11.59 0 16c-4.42 4.42-11.58 4.42-16 0-4.42-4.41-4.42-11.58 0-16zm99.49-.04c-3.02-14.43 5.67-24.96 18.07-30.91 9.95-4.77 21.81-5.6 35.46-2.69 11.51 2.46 26.26 10.21 35.12 20.87 17.16 20.63 3.91 41.03-19.03 47.46-10.19 2.86-20.83 2.61-31.95-1-7.52-2.45-15.57-6.23-22.34-11.4-7.49-5.72-13.41-13.14-15.33-22.33z"/></svg>
+                             HAIR CUT</h3>
+                        <!-- <p class="plan-price">$399 <span>/ month</span></p>
+                        <p class="plan-price-meal">That's only 13.905$ per meal</p> -->
+                    </div>
+                    <div>
+                        <ul>
+                            <li><ion-icon name="arrow-forward-circle-outline"></ion-icon>Feather cut 35 CAD</li>
+                            <li><ion-icon name="arrow-forward-circle-outline"></ion-icon>Layers cut 30 CAD</li>
+                            <li><ion-icon name="arrow-forward-circle-outline"></ion-icon>U or V cut 25 CAD</li>
+                            <li><ion-icon name="arrow-forward-circle-outline"></ion-icon>Straight cut/ Touch-up 20 CAD</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>
+                            <svg width="25px" height="25px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.87 104.3" style="enable-background:new 0 0 122.87 104.3" xml:space="preserve">
+                                <defs>
+                                    <linearGradient id="hairGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" style="stop-color: magenta" />
+                                        <stop offset="100%" style="stop-color:purple" />
+                                    </linearGradient>
+                                </defs>
+                                <g>
+                                    <path fill="url(#hairGradient)" d="M25.36,12.48L87.6,4.75c0.96-0.12,1.84,0.51,2.07,1.43l5.58,21.83c0.25,0.97-0.3,1.95-1.24,2.26L43.9,51.94l3.72,35.49 c0.15,0.94-0.43,1.87-1.38,2.12l-6.06,1.63c-1.03,2.6,0.34,4.43,1.93,6.53c0.82,1.09,1.69,2.25,2.42,3.61 c0.52,0.98-0.02,2.2-1.2,2.74c-1.19,0.54-2.57,0.18-3.09-0.8c-0.61-1.15-1.39-2.18-2.13-3.16c-1.81-2.4-3.43-4.54-3.03-7.55 l-3.31,0.89c-0.42,0.11-0.94,0.3-1.38,0.27c-0.68-0.04-1.31-0.44-1.61-1.09l-17.21-37.3c-1.49-0.8-2.85-1.76-4.07-2.84 c-3.27-2.89-5.54-6.66-6.66-10.73c-1.13-4.07-1.11-8.45,0.16-12.56c2.34-7.5,8.86-14.07,20.33-16.13 C22.67,12.8,24,12.65,25.36,12.48L25.36,12.48z M40.27,53.51l-3.26,1.41l-0.02,0.01l0,0c-7.89,3.34-14.76,3.79-20.37,2.35 l14.91,32.31l5.86-1.57c0.32-0.15,0.67-0.25,1.03-0.27l5.29-1.42L40.27,53.51L40.27,53.51z M20.62,27.18 c4.84-1.3,9.81,1.57,11.11,6.41c1.3,4.84-1.57,9.81-6.41,11.11c-4.84,1.30-9.81-1.57-11.11-6.41 C12.91,33.45,15.78,28.48,20.62,27.18L20.62,27.18z M102.42,27.3c-0.66,0.49-1.59,0.23-2.08-0.58c-0.48-0.82-0.34-1.88,0.32-2.37 c-0.48-0.82-0.34-1.88,0.32-2.37c4.52-3.37,8.49-2.88,11.98-2.45c3,0.37,5.57,0.69,7.52-2.47c0.46-0.74,1.38-0.85,2.06-0.25 c0.68,0.6,0.86,1.69,0.4,2.43c-2.86,4.63-6.17,4.22-10.04,3.74C109.56,24.96,106.12,24.53,102.42,27.3L102.42,27.3z M99.9,17.91 c-0.66,0.49-1.59,0.23-2.08-0.58c-0.48-0.82-0.34-1.88,0.32-2.37c-0.48-0.82-0.34-1.88,0.32-2.37c4.52-3.37,8.49-2.88,11.98-2.45 c3,0.37,5.57,0.69,7.52-2.47c0.46-0.74,1.38-0.85,2.06-0.25c0.68,0.6,0.86,1.69,0.4,2.43c-2.86,4.63-6.17,4.22-10.04,3.74 C107.04,15.57,103.61,15.15,99.9,17.91L99.9,17.91z M97.39,8.52 c-0.66,0.49-1.59,0.23-2.08-0.58c-0.48-0.82-0.34-1.88,0.32-2.37c-0.48-0.82-0.34-1.88,0.32-2.37c4.52-3.37,8.49-2.88,11.98-2.45 c3,0.37,5.57,0.69,7.52-2.47c0.46-0.74,1.38-0.85,2.06-0.25c0.68,0.6,0.86,1.69,0.4,2.43c-2.86,4.63-6.17,4.22-10.04,3.74 C104.53,6.18,101.09,5.76,97.39,8.52L97.39,8.52z M78.32,32.95l-6.03-22.49l-46.51,5.78c-1.37,0.17-2.71,0.31-4.06,0.57 c-9.71,1.83-15.2,7.29-17.13,13.5 c-1.06,3.41-1.07,7.04-0.14,10.43c0.94,3.39,2.81,6.52,5.53,8.92c5.4,4.77,14.18,6.62,25.55,1.81l0,0L78.32,32.95L78.32,32.95z"/>
+                                </g>
+                            </svg>
+                            HAIR BLOW DRY
+                        </h4>
+                        
+                        <!-- <h4><?xml version="1.0" encoding="utf-8"?><svg  width="25px" height="25px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.87 104.3" style="enable-background:new 0 0 122.87 104.3" xml:space="preserve"><g><path fill="linear-gradient(pink,white)" d="M25.36,12.48L87.6,4.75c0.96-0.12,1.84,0.51,2.07,1.43l5.58,21.83c0.25,0.97-0.3,1.95-1.24,2.26L43.9,51.94l3.72,35.49 c0.15,0.94-0.43,1.87-1.38,2.12l-6.06,1.63c-1.03,2.6,0.34,4.43,1.93,6.53c0.82,1.09,1.69,2.25,2.42,3.61 c0.52,0.98-0.02,2.2-1.2,2.74c-1.19,0.54-2.57,0.18-3.09-0.8c-0.61-1.15-1.39-2.18-2.13-3.16c-1.81-2.4-3.43-4.54-3.03-7.55 l-3.31,0.89c-0.42,0.11-0.94,0.3-1.38,0.27c-0.68-0.04-1.31-0.44-1.61-1.09l-17.21-37.3c-1.49-0.8-2.85-1.76-4.07-2.84 c-3.27-2.89-5.54-6.66-6.66-10.73c-1.13-4.07-1.11-8.45,0.16-12.56c2.34-7.5,8.86-14.07,20.33-16.13 C22.67,12.8,24,12.65,25.36,12.48L25.36,12.48z M40.27,53.51l-3.26,1.41l-0.02,0.01l0,0c-7.89,3.34-14.76,3.79-20.37,2.35 l14.91,32.31l5.86-1.57c0.32-0.15,0.67-0.25,1.03-0.27l5.29-1.42L40.27,53.51L40.27,53.51z M20.62,27.18 c4.84-1.3,9.81,1.57,11.11,6.41c1.3,4.84-1.57,9.81-6.41,11.11c-4.84,1.3-9.81-1.57-11.11-6.41 C12.91,33.45,15.78,28.48,20.62,27.18L20.62,27.18z M102.42,27.3c-0.66,0.49-1.59,0.23-2.08-0.58c-0.48-0.82-0.34-1.88,0.32-2.37 c4.52-3.37,8.49-2.88,11.98-2.45c3,0.37,5.57,0.69,7.52-2.47c0.46-0.74,1.38-0.85,2.06-0.25c0.68,0.6,0.86,1.69,0.4,2.43 c-2.86,4.63-6.17,4.22-10.04,3.74C109.56,24.96,106.12,24.53,102.42,27.3L102.42,27.3z M99.9,17.91c-0.66,0.49-1.59,0.23-2.08-0.58 c-0.48-0.82-0.34-1.88,0.32-2.37c4.52-3.37,8.49-2.88,11.98-2.45c3,0.37,5.57,0.69,7.52-2.47c0.46-0.74,1.38-0.85,2.06-0.25 c0.68,0.6,0.86,1.69,0.4,2.43c-2.86,4.63-6.17,4.22-10.04,3.74C107.04,15.57,103.61,15.15,99.9,17.91L99.9,17.91z M97.39,8.52 c-0.66,0.49-1.59,0.23-2.08-0.58c-0.48-0.82-0.34-1.88,0.32-2.37c4.52-3.37,8.49-2.88,11.98-2.45c3,0.37,5.57,0.69,7.52-2.47 c0.46-0.74,1.38-0.85,2.06-0.25c0.68,0.6,0.86,1.69,0.4,2.43c-2.86,4.63-6.17,4.22-10.04,3.74C104.53,6.18,101.09,5.76,97.39,8.52 L97.39,8.52z M78.32,32.95l-6.03-22.49l-46.51,5.78c-1.37,0.17-2.71,0.31-4.06,0.57c-9.71,1.83-15.2,7.29-17.13,13.5 c-1.06,3.41-1.07,7.04-0.14,10.43c0.94,3.39,2.81,6.52,5.53,8.92c5.4,4.77,14.18,6.62,25.55,1.81l0,0L78.32,32.95L78.32,32.95z"/></g></svg>
+                             HAIR BLOW DRY</h4> -->
+                        <p>Service after every haircut</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="plan-box">
+                    <div>
+                        <h3><?xml version="1.0" encoding="utf-8"?><svg  width="25px" height="25px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.01 122.88" style="enable-background:new 0 0 122.01 122.88" xml:space="preserve"><g><path fill="#FC8EAC" d="M109.55,50.54c0.3-1.22,0-8.53,0-10.21c-1.45,1.08-3.22,2.04-5.26,2.9c-10.06,4.21-27.43,6.07-44.5,5.83 c-17.09-0.24-33.99-2.59-43.1-6.78c-1.33-0.61-2.51-1.27-3.52-1.98v10.7c6.63,6.09,26.68,9.32,47.17,9.41 c20.55,0.1,41.31-2.98,49.22-9.49V50.54L109.55,50.54z M21.68,67.73c28.71,8.38,55.02,7.85,79.35,0v33.01 c-23.54,9.31-49.57,10.67-79.35,0V67.73L21.68,67.73z M113.58,47.33c1.98,0.5,3.75,1.53,5.15,2.94c2.02,2.02,3.27,4.81,3.27,7.87 v49.64c0,0.47-0.16,0.91-0.44,1.25c-0.07,0.1-0.14,0.2-0.22,0.3c-5.28,7.02-27.81,12.31-52.55,13.35 c-24.55,1.03-51.52-1.99-66.07-11.48c-0.65-0.43-1.29-0.87-1.91-1.34c-0.52-0.39-0.8-1-0.8-1.61H0V57.67c0-2.94,1.2-5.61,3.13-7.54 c1.59-1.59,3.67-2.68,5.99-3.02V34.96c0-0.69,0.35-1.3,0.88-1.67c3.44-2.75,9.28-5.26,16.44-7.04c6.65-1.65,14.53-2.7,22.74-2.76 c0.04,0,0.08,0,0.13,0c4.28-4.85,6.93-11.82,7.48-21.61c0.06-1.11,1.01-1.96,2.12-1.9c0.09,0,0.18,0.02,0.26,0.03 c9.91,1.3,23.04,5.8,34.02,12.76c8.57,5.43,15.88,12.37,19.5,20.51c0.53,0.36,0.88,0.97,0.88,1.67V47.33L113.58,47.33z M9.13,51.21 c-1.21,0.29-2.29,0.92-3.15,1.77c-1.21,1.21-1.95,2.87-1.95,4.69v49.57c0.29,0.2,0.58,0.4,0.88,0.6 c13.79,9,39.86,11.84,63.72,10.83c23.41-0.99,44.45-5.55,49.34-11.54V58.14c0-1.95-0.8-3.73-2.09-5.02 c-0.66-0.66-1.44-1.19-2.31-1.55v0.25c0,0.64-0.3,1.21-0.77,1.58c-8.24,7.55-30.6,11.12-52.5,11.02 C38.3,64.31,16.5,60.47,9.7,53.21l-0.02-0.02c-0.36-0.39-0.54-0.88-0.54-1.37H9.13V51.21L9.13,51.21z M44.52,27.66 c-6.16,0.34-12,1.24-17.11,2.5c-3.81,0.95-7.17,2.09-9.92,3.34c10.23,0.13,19.11-1.19,25.8-5.09 C43.71,28.18,44.12,27.92,44.52,27.66L44.52,27.66z M91.06,16.19C81.28,10,69.78,5.85,60.65,4.31 c-1.26,14.02-6.8,22.62-15.34,27.59c-7.67,4.46-17.66,5.87-29.07,5.61c0.63,0.38,1.35,0.75,2.13,1.11 c8.61,3.97,24.89,6.19,41.46,6.42c16.58,0.23,33.35-1.53,42.91-5.53c3.05-1.28,5.28-2.73,6.38-4.36 C105.9,27.72,99.09,21.28,91.06,16.19L91.06,16.19z"/></g></svg>
+                             FACIAL</h3>
+                        <!-- <p class="plan-price">$199 <span>/ month</span></p>
+                        <p class="plan-price-meal">That's only 10.905$ per meal</p> -->
+                    </div>
+                    <div>
+                        <ul>
+                            <li><ion-icon name="arrow-forward-circle-outline"></ion-icon>Facial 20 CAD
+                            <br><p>(Product has to be provided by the client as suitable to clients skin)</p></li>
+                            <!-- <li><ion-icon name="checkmark-outline"></ion-icon>Order 24*7</li>
+                            <li><ion-icon name="checkmark-outline"></ion-icon>Access to newest creation</li>
+                            <li><ion-icon name="checkmark-outline"></ion-icon>Free delivery</li> -->
+                        </ul>
+                    </div>
+                    <!-- <div>
+                        <a href="#" class="btn btn-ghost">Sign Up</a>
+                    </div> -->
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="plan-box">
+                    <div>
+                        <h3><?xml version="1.0" standalone="no"?>
+                            <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+                             "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+                            <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                             width="25px" height="25px" viewBox="0 0 1024.000000 1024.000000"
+                             preserveAspectRatio="xMidYMid meet">
+                            
+                            <g transform="translate(0.000000,1024.000000) scale(0.100000,-0.100000)"
+                            fill="#000000" stroke="none">
+                            <path fill="#F1C27D" d="M6163 9580 c-50 -30 -61 -56 -94 -221 -17 -85 -32 -155 -34 -157 -1
+                            -1 -171 38 -378 88 -207 49 -394 90 -414 90 -46 0 -97 -29 -122 -70 -16 -28
+                            -19 -62 -24 -318 -7 -345 -28 -527 -98 -826 -156 -665 -489 -1251 -947 -1662
+                            -217 -195 -415 -330 -702 -478 -140 -73 -178 -97 -193 -123 -23 -40 -24 -110
+                            -3 -149 8 -16 208 -297 443 -624 276 -384 440 -603 462 -617 56 -38 109 -32
+                            205 24 141 81 355 231 524 368 17 15 32 24 32 22 0 -12 -108 -234 -168 -347
+                            -73 -137 -321 -515 -482 -735 -269 -367 -595 -742 -890 -1021 -615 -582 -1215
+                            -920 -1810 -1020 -222 -37 -322 -98 -393 -244 -30 -60 -32 -72 -32 -165 0 -83
+                            4 -108 23 -150 26 -57 82 -118 122 -135 21 -9 31 -22 39 -54 13 -53 57 -118
+                            101 -151 39 -29 146 -65 191 -65 23 0 43 -14 87 -58 79 -80 165 -100 301 -71
+                            47 10 53 9 84 -15 85 -65 207 -74 349 -25 81 28 92 29 126 17 56 -19 207 -16
+                            272 6 69 23 142 60 198 99 l44 29 61 -13 c84 -19 254 -17 355 5 222 46 481
+                            165 777 358 727 474 936 608 980 631 70 35 168 63 325 92 666 124 1073 391
+                            1211 793 33 94 33 101 34 262 0 197 -3 210 -134 583 -104 296 -116 352 -109
+                            513 4 97 11 136 36 210 62 184 182 422 320 634 100 154 144 215 362 490 579
+                            731 964 1305 1309 1948 291 542 525 1166 582 1548 15 103 7 145 -36 189 -56
+                            55 -144 59 -205 9 -33 -28 -40 -48 -70 -209 -62 -323 -204 -711 -429 -1171
+                            -341 -696 -771 -1351 -1425 -2174 -265 -333 -415 -559 -547 -822 -128 -256
+                            -182 -416 -199 -595 -17 -187 9 -351 98 -593 110 -300 144 -419 149 -520 10
+                            -182 -38 -302 -177 -440 -171 -171 -411 -275 -820 -356 -329 -64 -363 -80
+                            -788 -357 -704 -459 -813 -528 -918 -581 -302 -151 -521 -194 -675 -133 -70
+                            29 -127 34 -162 15 -12 -6 -45 -32 -74 -58 -107 -97 -214 -124 -313 -79 -67
+                            31 -115 27 -194 -15 -71 -38 -136 -48 -136 -22 0 23 -51 78 -87 92 -48 20 -77
+                            17 -153 -16 -38 -17 -73 -30 -78 -30 -5 0 -17 20 -27 46 -12 31 -29 53 -56 71
+                            -37 24 -44 26 -123 19 -47 -3 -91 -8 -98 -11 -12 -5 -14 8 -14 64 1 56 -3 75
+                            -20 98 -29 39 -71 61 -124 65 -37 3 -46 7 -48 25 -4 30 21 76 50 90 12 7 81
+                            22 152 33 455 75 964 312 1441 670 494 371 997 895 1435 1495 149 205 369 535
+                            450 677 138 239 290 574 426 936 64 170 73 189 133 260 495 592 862 1349 1039
+                            2142 82 364 142 866 142 1180 0 97 -3 120 -20 148 -28 45 -68 66 -163 87 -45
+                            9 -85 19 -88 21 -3 2 7 68 22 146 34 171 35 212 9 256 -42 69 -139 94 -207 52z
+                            m-203 -674 l345 -83 -3 -94 c-11 -340 -78 -783 -172 -1147 -269 -1037 -869
+                            -1949 -1686 -2565 -125 -94 -255 -178 -265 -171 -9 5 -652 900 -657 913 -2 5
+                            43 34 100 66 896 504 1481 1331 1698 2405 41 199 70 436 76 615 3 83 7 160 10
+                            171 l4 22 102 -25 c57 -13 258 -61 448 -107z"/>
+                            <path fill="#71706e" d="M2130 9127 c-62 -41 -65 -54 -118 -469 l-49 -386 -245 -294 c-134
+                            -161 -250 -303 -256 -315 -18 -32 -15 -111 6 -145 35 -59 52 -64 437 -112 198
+                            -25 374 -48 391 -51 22 -4 121 -81 330 -255 209 -175 310 -253 337 -260 67
+                            -19 140 17 175 85 5 11 31 193 58 405 l48 384 235 281 c129 154 245 295 258
+                            314 48 71 21 173 -57 212 -24 12 -153 32 -415 65 l-380 47 -294 245 c-162 134
+                            -306 251 -320 258 -40 21 -103 17 -141 -9z m403 -596 c111 -92 211 -173 222
+                            -179 12 -6 141 -25 288 -43 147 -19 267 -36 267 -39 0 -3 -75 -96 -166 -205
+                            -92 -110 -173 -213 -180 -230 -8 -16 -28 -148 -46 -293 l-33 -263 -200 167
+                            c-110 91 -210 173 -222 181 -13 9 -124 27 -290 49 -147 19 -271 35 -274 36 -4
+                            2 71 97 167 211 115 138 177 221 184 245 8 30 70 490 70 523 0 5 2 9 5 9 3 0
+                            97 -76 208 -169z"/>
+                            <path fill="#71706e" d="M8214 5349 c-41 -12 -91 -69 -99 -111 -3 -18 -17 -118 -30 -221 -13
+                            -103 -28 -193 -32 -200 -4 -7 -61 -77 -128 -157 -66 -80 -129 -156 -138 -170
+                            -22 -31 -22 -101 -1 -146 29 -62 61 -73 298 -102 l214 -26 173 -143 c184 -153
+                            208 -165 279 -144 46 14 97 69 105 113 3 18 16 118 29 221 14 106 30 195 38
+                            205 7 9 68 84 136 165 68 82 127 160 133 174 25 66 -2 146 -62 182 -18 11 -68
+                            23 -122 30 -51 6 -148 19 -215 28 l-124 16 -160 134 c-89 74 -168 138 -177
+                            143 -28 14 -85 19 -117 9z m331 -569 c13 -5 64 -14 112 -21 48 -6 90 -13 92
+                            -15 2 -2 -24 -37 -58 -79 -68 -82 -76 -100 -86 -202 -4 -37 -10 -73 -14 -80
+                            -4 -8 -27 6 -66 39 -33 27 -70 56 -82 65 -19 12 -174 43 -221 43 -7 0 12 30
+                            43 66 81 96 84 102 96 200 6 49 12 95 15 102 2 8 30 -9 75 -48 39 -34 82 -65
+                            94 -70z"/>
+                            <path fill="#F1C27D" d="M5746 4250 c-16 -5 -40 -19 -53 -32 -51 -47 -53 -60 -53 -322 0 -337
+                            1 -335 -227 -545 -126 -117 -148 -149 -146 -214 4 -81 65 -139 149 -139 62 0
+                            90 21 265 193 158 155 196 209 240 344 22 67 23 82 21 338 -2 285 -4 298 -54
+                            344 -12 11 -41 26 -63 32 -45 12 -40 12 -79 1z"/>
+                            </g>
+                            </svg>
+                             WAXING</h3>
+                        <!-- <p class="plan-price">19$ <span>/ meal</span></p>
+                        <p class="plan-price-meal">&nbsp;</p> -->
+                    </div>
+                    <div>
+                        <ul>
+                            <li><ion-icon name="arrow-forward-circle-outline"></ion-icon>Waxing 30 CAD
+                            <br><p>(Product has to be provided by the client as suitable to clients skin)</p></li>
+                            <!-- <li><ion-icon name="checkmark-outline"></ion-icon>Order 24*7</li>
+                            <li><ion-icon name="close-outline"></ion-icon>Access to newest creation</li>
+                            <li><ion-icon name="checkmark-outline"></ion-icon>Free delivery</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section_about" id="about">
+        <div class="class_about">
+            <div class="goals">
+                <h2>About Us</h2>
+                <p>Hello everyone,<br>
+                    I am a hair artist specialized in women's hair cut, I am located in Oshawa, Ontario.
+                     If anyone wants to get a haircut, do reach out to me on my contact number mentioned.
+                     Thank you.&nbsp;</p></span>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="section-features" id="features">
+        <div class="row">
+            <h2>OUR SERVICES</h2>
+            <p class="long-copy">
+                Hello, we're HAYLEY'S, your new premium salon styles at home service. We're really good at Salon Services, we 
+                promise!
+            </p>
+        </div>
+        <div class="row boxes clearfix">
+            <div class="col span_1_of_4 box">
+                <ion-icon name="cut-outline"></ion-icon>
+                <h3>Up to 365 days/year</h3>
+                <p>
+                    Never cook again! We really mean that. Our subscription plans include up to 365
+                    days/year coverage. You can also choose to order more flexibly if that's your style.
+                </p>
+            </div>
+            <div class="col span_1_of_4 box">
+                <ion-icon class="icon_big" name="alarm-outline"></ion-icon>
+                <h3>Up to 365 days/year</h3>
+                <p>
+                    Never cook again! We really mean that. Our subscription plans include up to 365
+                    days/year coverage. You can also choose to order more flexibly if that's your style.
+                </p>
+            </div>
+            <div class="col span_1_of_4 box">
+                <ion-icon class="icon_big" name="fast-food-outline"></ion-icon>
+                <h3>Up to 365 days/year</h3>
+                <p>
+                    Never cook again! We really mean that. Our subscription plans include up to 365
+                    days/year coverage. You can also choose to order more flexibly if that's your style.
+                </p>
+            </div>
+            <div class="col span_1_of_4 box">
+                <ion-icon class="icon_big" name="cart-outline"></ion-icon>
+                <h3>Up to 365 days/year</h3>
+                <p>
+                    Never cook again! We really mean that. Our subscription plans include up to 365
+                    days/year coverage. You can also choose to order more flexibly if that's your style.
+                </p>
+            </div>
+        </div>
+    </section> -->
+    <!-- <section class="section-testimonials">
+      <div class="row">
+          <h2>Our custormers love us</h2>
+      </div>
+      <div class="row">
+          <div class="col">
+              <blockquote>
+                  Omifood is just awsome! I just launched a startup which leave me with no time for
+                  cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't life
+                  without my daily meals!
+                  <cite><img src="resources/img/customer-1.jpg" alt="cust-1">Alberto Duncan</cite>
+              </blockquote>
+          </div>
+          <div class="col">
+              <blockquote>
+                  Omifood is just awsome! I just launched a startup which leave me with no time for
+                  cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't life
+                  without my daily meals!
+                  <cite><img src="resources/img/customer-2.jpg" alt="cust-2">Joana Silva</cite>
+              </blockquote>
+          </div>
+          <div class="col">
+              <blockquote>
+                  Omifood is just awsome! I just launched a startup which leave me with no time for
+                  cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't life
+                  without my daily meals!
+                  <cite><img src="resources/img/customer-3.jpg" alt="cust-3">Milton Chapman</cite>
+              </blockquote>
+          </div>
+      </div>
+  </section> -->
+    <section class="section-form" id="contact">
+        <div class="row">
+            <h2>We're Happy to hear from you</h2>
+        </div>
+        <div class="row">
+            <form action="#" method="POST" class="contact-form">
+                <div class="row">
+                    <div class="col">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="col">
+                        <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label for="email">E-mail</label>
+                    </div>
+                    <div class="col">
+                        <input type="email" name="email" id="email" placeholder="Your E-mail" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label for="contact-no">Contact Number</label>
+                    </div>
+                    <div class="col">
+                      <input type="tel" name="tel-number" id="tel-number" placeholder="Your Contact Number" required>
+                    </div>
+                </div>
+                <!-- <div class="row">
+                    <div class="col">
+                        <label for="news">Newsletter?</label>
+                    </div>
+                    <div class="col">
+                        <input type="checkbox" name="news" id="news" checked>
+                    </div>
+                </div> -->
+                <div class="row">
+                    <div class="col">
+                        <label for="text1">Drop a line (Any Queries feel free to ask)</label>
+                    </div>
+                    <div class="col">
+                        <textarea name="text1" id="text1" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label>&nbsp;</label>
+                    </div>
+                    <div class="col">
+                        <input type="submit" value="Send-me">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="col span_1_of_2">
+                <ul class="footer-nav">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">email id: xxxx@gmail.com</a></li>
+                    <li><a href="#">contact No: 909090909</a></li>
+                </ul>
+            </div>
+            <div class="col span_1_of_2">
+                <ul class="social-links">
+                    <li><ion-icon class="fb" name="logo-facebook"></ion-icon></li>
+                    <!-- <li><ion-icon class="twitter" name="logo-twitter"></ion-icon></li>
+                    <li><ion-icon class="google" name="logo-google"></ion-icon></li> -->
+                    <li><ion-icon class="insta" name="logo-instagram"></ion-icon></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p>Image by <a href="https://www.freepik.com/free-photo/woman-getting-treatment-hairdresser-shop_21540247.htm#page=2&query=haircut%20women&position=29&from_view=search&track=ais&uuid=972b5dbc-1d6c-4aa5-90a3-4dd2a5b22e10">Freepik</a></p>
+            <p><a href="https://www.freepik.com/free-photo/woman-receiving-beauty-treatment-skin-care_10211614.htm#query=facial%20of%20women%20green&position=21&from_view=search&track=ais&uuid=9209f333-bb58-4c64-a2ea-d97d6c6b9c4b">Image by Racool_studio</a> on Freepik</p>
+            <p><a href="https://www.freepik.com/free-photo/laser-epilation-hair-removal-therapy_10025233.htm#query=waxing%20of%20women&position=44&from_view=search&track=ais&uuid=5826990b-29e6-415b-a060-39f06cc53ed4">Image by senivpetro</a> on Freepik</p>
+            
+            <p>Copyright &copy; 2023 by HAYLEY'S. All rights reserved.</p>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <script>
+        // Function to set the clicked nav-link as active
+        // function setActiveNavLink(event) {
+        //   $('.nav-link').removeClass('custom-active');
+        //   $(event.target).addClass('custom-active');
+        // }
+    
+        // // Add click event listener to the nav-links
+        // $(document).ready(function () {
+        //   $('.nav-link').on('click', setActiveNavLink);
+        // });
+    
+        // Function to add the active class to the corresponding nav-link based on the scroll position
+        function setActiveNavByScroll() {
+          const scrollPosition = $(window).scrollTop();
+          if (scrollPosition >= 0 && scrollPosition < 688) {
+            $('.nav-link').removeClass('custom-active');
+            $('.nav-link').eq(0).addClass('custom-active');
+          }
+          $('section').each(function (index) {
+            const offsetTop = $(this).offset().top - 95;
+            const offsetBottom = offsetTop + $(this).outerHeight();
+            // console.log(offsetBottom);
+            if (scrollPosition >= offsetTop && scrollPosition < offsetBottom) {
+              $('.nav-link').removeClass('custom-active');
+              $('.scroll').eq(index).addClass('custom-active');
+            }
+          });
+        }
+    
+        // Add event listener to the scroll event
+        $(window).on('scroll', setActiveNavByScroll);
+    
+        // Call setActiveNavByScroll on page load
+        $(window).on('load', setActiveNavByScroll);
+      </script>
+</body>
+</html>
