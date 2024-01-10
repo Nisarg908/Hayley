@@ -7,22 +7,22 @@
 
     <link rel="icon" type="image/x-icon" href="./images/Untitled design.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Italiana:wght@400&display=swap"
     />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=JejuMyeongjo:wght@400&display=swap"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Rubik+Doodle+Shadow&family=Single+Day&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Marmelad:wght@400&display=swap"
     />
 </head>
-<body id="home">
+<body>
     <div class="background-container"></div>
     <header>
       <!-- Primary Navbar -->
@@ -50,7 +50,8 @@
           <button class="custon-navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPrimary"
             aria-controls="navbarPrimary" aria-expanded="false" aria-label="Toggle navigation">
             <span class="custon-navbar-toggler-icon">
-                <svg width="50px" height="50px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="menu"><g data-name="Layer 2"><g data-name="menu"><rect fill="#d8c7c4" width="18" height="2" x="3" y="11" rx=".95" ry=".95"></rect><rect fill="#d8c7c4" width="18" height="2" x="3" y="16" rx=".95" ry=".95"></rect><rect fill="#d8c7c4" width="18" height="2" x="3" y="6" rx=".95" ry=".95"></rect></g></g></svg>
+                <!-- <svg width="50px" height="50px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="menu"><g data-name="Layer 2"><g data-name="menu"><rect fill="white" width="18" height="2" x="3" y="11" rx=".95" ry=".95"></rect><rect fill="#d8c7c4" width="18" height="2" x="3" y="16" rx=".95" ry=".95"></rect><rect fill="#d8c7c4" width="18" height="2" x="3" y="6" rx=".95" ry=".95"></rect></g></g></svg> -->
+                <div id="menu" class="fas fa-bars fa-2xl"></div>
               <!-- <svg width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
   
                 <g id="SVGRepo_bgCarrier" stroke-width="0" />
@@ -69,7 +70,7 @@
           <div class="collapse navbar-collapse" id="navbarPrimary">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#home">Home</a>
+                <a class="nav-link" href="#">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link scroll" href="#services">Services</a>
@@ -96,9 +97,9 @@
           <a class="btn btn-ghost" href="./catalog.pdf">Catalogs</a> -->
         </div>
         <div class="container circle_photos">
-          <img class="img1" src="./images/templet_1.png" alt="Hair_cut Freepik Image">
-          <img class="img2" src="./images/templet_2.png" alt="Facial Freepik Image">
-          <img class="img3" src="./images/templet_3.png" alt="Waxing Freepik Image">
+          <img class="img1" src="./images/templet_1.png" alt="Hair_cut">
+          <img class="img2" src="./images/templet_2.png" alt="Facial">
+          <img class="img3" src="./images/templet_3.png" alt="Waxing">
           <!-- <img class="img4" src="./images/hair_cut_photo_4.jpg" alt=""> -->
           <!-- <a class="btn btn-full" href="./products.html">Products</a>
           <a class="btn btn-ghost" href="./catalog.pdf">Catalogs</a> -->
@@ -353,50 +354,50 @@
         <div class="row">
             <form action="#" method="POST" class="contact-form">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-sm">
                         <label for="name">Name</label>
                     </div>
-                    <div class="col">
+                    <div class="col-sm">
                         <input type="text" name="name" id="name" placeholder="Your Name" required>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
+                    <div class="col-sm">
                         <label for="email">E-mail</label>
                     </div>
-                    <div class="col">
+                    <div class="col-sm">
                         <input type="email" name="email" id="email" placeholder="Your E-mail" required>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
+                    <div class="col-sm">
                         <label for="contact-no">Contact Number</label>
                     </div>
-                    <div class="col">
+                    <div class="col-sm">
                       <input type="tel" name="tel-number" id="tel-number" placeholder="Your Contact Number" required>
                     </div>
                 </div>
                 <!-- <div class="row">
-                    <div class="col">
+                    <div class="col-sm">
                         <label for="news">Newsletter?</label>
                     </div>
-                    <div class="col">
+                    <div class="col-sm">
                         <input type="checkbox" name="news" id="news" checked>
                     </div>
                 </div> -->
                 <div class="row">
-                    <div class="col">
+                    <div class="col-sm">
                         <label for="text1">Drop a line (Any Queries feel free to ask)</label>
                     </div>
-                    <div class="col">
+                    <div class="col-sm">
                         <textarea name="text1" id="text1" cols="30" rows="10"></textarea>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
+                    <div class="col-sm">
                         <label>&nbsp;</label>
                     </div>
-                    <div class="col">
+                    <div class="col-sm">
                         <input type="submit" value="Send-me">
                     </div>
                 </div>
@@ -422,9 +423,9 @@
             </div>
         </div>
         <div class="row">
-            <p>Image by <a href="https://www.freepik.com/free-photo/woman-getting-treatment-hairdresser-shop_21540247.htm#page=2&query=haircut%20women&position=29&from_view=search&track=ais&uuid=972b5dbc-1d6c-4aa5-90a3-4dd2a5b22e10">Freepik</a></p>
-            <p><a href="https://www.freepik.com/free-photo/woman-receiving-beauty-treatment-skin-care_10211614.htm#query=facial%20of%20women%20green&position=21&from_view=search&track=ais&uuid=9209f333-bb58-4c64-a2ea-d97d6c6b9c4b">Image by Racool_studio</a> on Freepik</p>
-            <p><a href="https://www.freepik.com/free-photo/laser-epilation-hair-removal-therapy_10025233.htm#query=waxing%20of%20women&position=44&from_view=search&track=ais&uuid=5826990b-29e6-415b-a060-39f06cc53ed4">Image by senivpetro</a> on Freepik</p>
+            <p>Background Image by <a href="https://www.freepik.com/free-photo/woman-getting-treatment-hairdresser-shop_21540247.htm#page=2&query=haircut%20women&position=29&from_view=search&track=ais&uuid=972b5dbc-1d6c-4aa5-90a3-4dd2a5b22e10">Freepik</a></p>
+            <p>Background <a href="https://www.freepik.com/free-photo/woman-receiving-beauty-treatment-skin-care_10211614.htm#query=facial%20of%20women%20green&position=21&from_view=search&track=ais&uuid=9209f333-bb58-4c64-a2ea-d97d6c6b9c4b">Image by Racool_studio</a> on Freepik</p>
+            <p>Background <a href="https://www.freepik.com/free-photo/laser-epilation-hair-removal-therapy_10025233.htm#query=waxing%20of%20women&position=44&from_view=search&track=ais&uuid=5826990b-29e6-415b-a060-39f06cc53ed4">Image by senivpetro</a> on Freepik</p>
             
             <p>Copyright &copy; 2023 by HAYLEY'S. All rights reserved.</p>
         </div>
@@ -472,6 +473,13 @@
             $(window).on('load', setActiveNavByScroll);
         }
         
+        let menubtn = document.querySelector('#menu');
+
+        menubtn.onclick = () => {
+            menubtn.classList.toggle('fa-xmark');
+        }
+
       </script>
+
 </body>
 </html>

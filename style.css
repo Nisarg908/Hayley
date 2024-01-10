@@ -3,6 +3,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
+    background-color: #F8FAE5;
     font-size: 20px;
     padding-top: 94px;
     /* background-color: rgba(66,39,118,1) */
@@ -20,7 +21,7 @@ body {
     animation: changeBackground 30s infinite;
 } */
 .navbar-primary {
-    font-family: 'JejuMyeongjo';
+    font-family: 'Nanum Myeongjo', serif;
     font-size: 90%;
     position: fixed;
     top: 0;
@@ -69,7 +70,7 @@ body {
 .navbar-nav li a:visited {
     /* color: #d8c7c4; */
     color: white;
-    font-family: 'JejuMyeongjo';
+    font-family: 'Nanum Myeongjo', serif;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 70%;
@@ -97,7 +98,7 @@ body {
     border-bottom: 2px solid #422776;
 } */
 
-/* .navbar-toggler-icon {
+/* .navbar-toggler-icon {header
     filter: invert(100%);
     color: #422776 !important;
 } */
@@ -122,15 +123,28 @@ header {
     overflow: hidden;
 }
 
+#menu {
+    color: white;
+    margin-right: 1.5vw;
+    transition: transform 0.5s;
+}
+
 .hero-text-box {
     padding-left: 6%;
-    padding-top: 5%;
+    padding-top: 12%;
     padding-bottom: 5%;
     color: #76453B;
     position: absolute;
     width: 100%;
-    top: 25%;
+    height: 88vh;
     left: 0;
+    top: 95px;
+    /* height: 84.5vh; */
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+        /* animation: animate 18s linear infinite; */
+    animation: animate 15s ease-in-out infinite;
     /* transform: translate(0, -50%); */
     /* overflow: hidden; */
     /* background-color: rgba(225, 225, 225, 0.8); */
@@ -284,7 +298,7 @@ h3, h4 {
 }
 
 .section_services {
-    scroll-margin-top: 90px !important;
+    scroll-margin-top: 70px !important;
     padding-top: 3%;
     background-color: #f4f4f4;
     
@@ -299,14 +313,21 @@ h3, h4 {
     overflow: hidden;
     margin-bottom: 10px;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 90%;
     margin-left: 5%;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.plan-box:hover {
+    z-index: 5;
+    transform: scale(1.025);
+    box-shadow: 10px 10px 10px #B19470;
 }
 
 .plan-box div {
     padding: 15px;
-    border-bottom: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;   
 }
 
 .plan-price {
@@ -480,30 +501,27 @@ h3, h4 {
         border-radius: 50%;
         background: linear-gradient(purple, magenta, red, orange, yellow);
     }
-    /* .hero-text-box {
-        top: 95px;
-        padding-top: 10%;
-        height: 84.5vh;
-        overflow: hidden;
-        background-size: cover;
-        background-repeat: no-repeat;
-        animation: animate 15s ease-in-out infinite;
-    }
     
     @keyframes animate {
         0%,100% {
-            background-image: linear-gradient(rgba(248, 250, 229,0.5), rgba(248, 250, 229,0.8)), url(./images/hair_cut_1.jpg);
+            background-image: url(./images/hair_cut_1.png);
             background-position: center center;
         }
         33% {
-            background-image: linear-gradient(rgba(248, 250, 229,0.5), rgba(248, 250, 229,0.8)), url(./images/facial.jpg);
+            background-image: url(./images/facial.png);
             background-position: center center;
         }
         66% {
-            background-image: linear-gradient(rgba(248, 250, 229,0.5), rgba(248, 250, 229,0.8)), url(./images/waxing.jpg);
+            background-image: url(./images/waxing.png);
             background-position: center center;
         }
-    } */
+    }
+
+    @media only screen and (min-width: 1350px) {
+        .section_services .row {
+            width: 100%;
+        }
+    }
 
     @media only screen and (max-width: 991.5px) {
         .custon-navbar-toggler {
@@ -528,7 +546,12 @@ h3, h4 {
             background-color: rgba(225, 225, 225, 0.9);
         }  */
           /* 2. Set width of .container to 100% */
-          
+          .fa-bars {
+            transform: rotate(-180deg);
+        }
+        .fa-xmark {
+            transform: rotate(90deg);
+        }
           .navbar-secondary .container {
             padding-top: 0;
             padding-bottom: 0;
@@ -576,30 +599,21 @@ h3, h4 {
         .img3 {
             display: none;
         }
-        .hero-text-box {
-            top: 95px;
-            padding-top: 14%;
-            height: 84vh;
-            overflow: hidden;
-            background-size: cover;
-            background-repeat: no-repeat;
-            /* animation: animate 18s linear infinite; */
-            animation: animate 15s ease-in-out infinite;
+        header {
+            height: 89lvh;
         }
-        
-        @keyframes animate {
-            0%,100% {
-                background-image: linear-gradient(rgba(248, 250, 229,0.5), rgba(248, 250, 229,0.8)), url(./images/hair_cut_1-min.jpg);
-                background-position: center center;
-            }
-            33% {
-                background-image: linear-gradient(rgba(248, 250, 229,0.5), rgba(248, 250, 229,0.8)), url(./images/facial-min.jpg);
-                background-position: center center;
-            }
-            66% {
-                background-image: linear-gradient(rgba(248, 250, 229,0.5), rgba(248, 250, 229,0.8)), url(./images/waxing-min.jpg);
-                background-position: center center;
-            }
+        .hero-text-box {
+            height: 90lvh;
+            padding-top: 40%;
+        }
+
+        .plan-box {
+            margin-bottom: 20px;
+        }
+
+        .section_services {
+            scroll-margin-top: 85px !important;
+            width: 100%;
         }
         /* .active {
             border-bottom: none;
