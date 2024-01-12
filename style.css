@@ -5,7 +5,7 @@ html {
 body {
     background-color: #F8FAE5;
     font-size: 20px;
-    padding-top: 94px;
+    padding-top: 90px;
     /* background-color: rgba(66,39,118,1) */
     /* background-color: rgba(86,59,118,0.1); */
     /* Adjust this value to make sure the content doesn't get hidden behind the navbars */
@@ -56,7 +56,7 @@ body {
 }
 
 .navbar-secondary img {
-    width: 40px;
+    width: 32px;
 }
 .no_padding {
     padding: 0 !important;
@@ -138,7 +138,7 @@ header {
     width: 100%;
     height: 88vh;
     left: 0;
-    top: 95px;
+    top: 83px;
     /* height: 84.5vh; */
     overflow: hidden;
     background-size: cover;
@@ -306,7 +306,7 @@ h3, h4 {
 }
 
 .section_services .row {
-    width: 101%;
+    width: 100%;
 }
 
 .plan-box {
@@ -393,9 +393,33 @@ h3, h4 {
 /* .services_container .row {s
     padding-left: 6%;
 } */
+.section_showcase {
+    scroll-margin-top: 80px !important;
+}
+.grid_container {
+    margin-left: 5vw;
+    padding-bottom: 30px;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(4, 20vw);
+    grid-template-rows: repeat(3, 30vw);
+    gap: 3vw;
+}
+.grid_container img {
+    border-radius: 10px;
+    width: 20vw;
+    height: 30vw;
+}
+/* .grid_item {
+
+} */
+
 .section_about {
     scroll-margin-top: 90px !important;
     margin: 0px 3%;
+}
+.goals p {
+    font-size: 105%;
 }
     .section-form {
         background-color: #ffffff;
@@ -460,8 +484,11 @@ h3, h4 {
     
     .footer-nav li,
     .social-links li {
-        display: inline-block;
         margin-right: 20px;
+    }
+
+    .social-links li {
+        display: inline-block;
     }
     
     .social-links li a:link,
@@ -500,6 +527,11 @@ h3, h4 {
     .insta:hover {
         border-radius: 50%;
         background: linear-gradient(purple, magenta, red, orange, yellow);
+    }
+
+    .info button {
+        padding-left: 0;
+        padding-right: 0;
     }
     
     @keyframes animate {
@@ -615,11 +647,50 @@ h3, h4 {
             scroll-margin-top: 85px !important;
             width: 100%;
         }
+
+        .section-form input[type=submit] {
+            margin-top: 0;
+            margin-left: 30%;
+        }
         /* .active {
             border-bottom: none;
         } */
     }
-
+    @media only screen and (max-width: 616px) {
+        .navbar-primary {
+            font-size: 10px;
+        }
+        .navbar-secondary {
+            top: 16px;
+        }
+        .hero-text-box { 
+            top: 73px;
+        }
+    }
+    @media only screen and (max-width: 600px) {
+        .grid_container {
+            margin-left: 7vw;
+            grid-template-columns: repeat(2, 40vw);
+            grid-template-rows: repeat(6, 60vw);
+            gap: 5vw;
+        }
+        .grid_container img {
+            width: 40vw;
+            height: 60vw;
+        }
+        ul.social-links {
+            padding-left: 0 !important;
+        }
+        .section_services {
+            scroll-margin-top: 80px !important;
+        }
+        .section_showcase {
+            scroll-margin-top: 70px !important;
+        }
+        .section-form {
+            scroll-margin-top: 70px !important;
+        }
+    }
     @media only screen and (max-width: 405px) {
         .navbar-collapse {
             left: 70%;
@@ -627,5 +698,12 @@ h3, h4 {
         }
         .section-form {
             scroll-margin-top: 90px !important;
+        }
+        footer-nav .row {
+            margin: 0;
+        }
+        .footer-nav li,
+        .social-links li {
+            margin-right: 0;
         }
     }
