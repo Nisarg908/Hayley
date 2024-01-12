@@ -172,7 +172,7 @@ header {
     transition: transform 0.3s;
 }
 .circle_photos img:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     box-shadow: 0 0 10px #409a88;
 }
 .img1 {
@@ -548,8 +548,8 @@ h3, h4 {
         z-index: 10;
         border-radius: 10px;
         position: fixed;
-        left: 82vw;
-        bottom: 0.5vh;
+        right: 1vw;
+        bottom: 1vh;
         transition: transform 0.3s;
     }
     #whatsapp img:hover {
@@ -574,12 +574,6 @@ h3, h4 {
     @media only screen and (min-width: 1350px) {
         .section_services .row {
             width: 100%;
-        }
-    }
-
-    @media only screen and (max-width: 1180px) {
-        #whatsapp img{
-            left: 79vw;
         }
     }
     @media only screen and (max-width: 991.5px) {
@@ -684,26 +678,6 @@ h3, h4 {
             border-bottom: none;
         } */
     }
-    @media only screen and (max-width: 950px) {
-        #whatsapp img{
-            left: 77vw;
-        }
-    }
-    @media only screen and (max-width: 850px) {
-        #whatsapp img{
-            left: 75vw;
-        }
-    }
-    @media only screen and (max-width: 760px) {
-        #whatsapp img{
-            left: 73vw;
-        }
-    }
-    @media only screen and (max-width: 710px) {
-        #whatsapp img{
-            left: 70vw;
-        }
-    }
     @media only screen and (max-width: 616px) {
         .navbar-primary {
             font-size: 10px;
@@ -713,9 +687,6 @@ h3, h4 {
         }
         .hero-text-box { 
             top: 73px;
-        }
-        #whatsapp img{
-            left: 65vw;
         }
     }
     @media only screen and (max-width: 600px) {
@@ -746,17 +717,6 @@ h3, h4 {
         }
         footer {
             padding: 20px;
-        }
-    }
-    @media only screen and (max-width: 550px) {
-        #whatsapp img{
-            left: 62vw;
-        }
-    }
-    @media only screen and (max-width: 500px) {
-        #whatsapp img{
-            left: 57vw;
-            width: 40vw;
         }
     }
     @media only screen and (max-width: 405px) {
